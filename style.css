@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@100;400;900&display=swap');
+
+body {
+background-color: skyblue;
+font-family: 'Open Sans', serif;
+color: #222831;
+font-size: 15px;
+line-height: 18px;
+}
+
+
+h1{
+  color: #222831;
+  font-family: 'Roboto',sans-serif;
+  font-size : 35px;
+}
+
+h2{
+  color: #222831;
+  font-family: 'Roboto',sans-serif;
+  font-size : 20px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+
+
+
+a {
+text-decoration: none;
+color: #2a9d8f;
+}
+
+a:hover {
+text-decoration: none;
+color: #03045e;
+}
+
+#logo{
+border-radius: 50%;
+width: 100px;
+}
+
+#logo:hover{
+  transition: 2.70s;
+  -webkit-transform: rotate(720deg);
+  -webkit-filter: hue-rotate(150deg);
+}
+
+.bouton{
+display:block;
+width:250px;
+line-height:50px;
+vertical-align:middle;
+background-color:violet;
+text-decoration:none;
+border-radius: 20px;
+margin: 0 auto;
+}
+
+.bouton:hover{
+background-color:red;
+}
+
+.card{
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0px;
+;
+}
+
+
+ul {
+list-style: none;
+padding-left: 0px;
+
+}
